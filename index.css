@@ -1,0 +1,67 @@
+.analog-clock {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+img {
+    border-color: black;
+    border-radius: 40%;
+    border: 3px solid black;
+    padding: 25px;
+    width: 40%;
+}
+
+.dot-divider {
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    width: 1%;
+}
+
+.seconds {
+    animation: seconds 60s linear infinite;
+    border: 1px solid red;
+    left: 950px;
+    position: absolute;
+    transform-origin: 1% 50%;
+    width: 15%;
+}
+
+@keyframes seconds {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.minutes {
+    animation: minutes 3600s linear infinite;
+    border: 2px solid blue;
+    left: 950px;
+    position: absolute;
+    transform-origin: 1% 50%;
+    width: 10%;
+}
+
+@keyframes minutes {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.hours {
+    animation: hours 43200s linear infinite;
+    border: 3px solid black;
+    left: 950px;
+    position: absolute;
+    transform-origin: 1% 50%;
+    width: 5%;
+}
+
+@keyframes hours {
+    100% {
+        transform: rotate(360deg);
+    }
+}
