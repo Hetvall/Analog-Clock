@@ -23,7 +23,7 @@ img {
 .seconds {
     animation: seconds 60s linear infinite;
     border: 1px solid red;
-    left: 950px;
+    left: 50%;
     position: absolute;
     transform-origin: 1% 50%;
     width: 15%;
@@ -38,7 +38,7 @@ img {
 .minutes {
     animation: minutes 3600s linear infinite;
     border: 2px solid blue;
-    left: 950px;
+    left: 50%;
     position: absolute;
     transform-origin: 1% 50%;
     width: 10%;
@@ -54,7 +54,7 @@ img {
 .hours {
     animation: hours 43200s linear infinite;
     border: 3px solid black;
-    left: 950px;
+    left: 50%;
     position: absolute;
     transform-origin: 1% 50%;
     width: 5%;
